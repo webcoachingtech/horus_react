@@ -1,0 +1,62 @@
+.gestao-tempo {
+  position: relative;
+  /* margin-bottom: 155px; */
+}
+
+.gestao-tempo-aside {
+  border: 1px solid black;
+}
+
+.gestao-tempo-hr {
+  display: inline;
+  font-weight: bold;
+}
+.gestao-tempo-description {
+  /* position: absolute; */
+  position: absolute;
+  bottom: 10px;
+  text-align: left;
+  padding: 20px;
+}
+.gestao-tempo-description p {
+  font-size: 14px;
+}
+
+/* DIV QUE ENGLOBA TANTO O SQUARE-ORANGE QUANTO O SQUARE-CONTORNO */
+.squares {
+  position: absolute;
+  right: 30px;
+  top: 5px;
+}
+.orange-square {
+  margin-top: -170px;
+  border-radius: 20%;
+  height: 85px;
+  width: 85px;
+  background-color: #eb7f4b;
+  text-align: center;
+  transform: rotate(90deg);
+  padding-bottom: 40px;
+  margin-top: 15px;
+  margin-left: 15px;
+  opacity: 0.8;
+}
+.orange-square-text {
+  font-weight: bold;
+  color: #fff;
+  font-size: 26px;
+  margin-left: 12px;
+  padding-top: -15px;
+  width: 60px;
+  transform: rotate(225deg);
+}
+
+.orange-square-contorno {
+  border-radius: 20%;
+  height: 85px;
+  width: 85px;
+  margin-top: 40px;
+  margin-left: 10px;
+  border: 2px solid #504f4f;
+  transform: rotate(45deg);
+}

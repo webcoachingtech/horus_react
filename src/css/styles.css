@@ -1,0 +1,1108 @@
+/* ESTILOS GERAIS DA APLICAÇÃO */
+
+html {
+  margin-top: 165px;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  h1 {
+    font-size: 2.0em;
+  }
+  nav {
+    box-shadow: 5px 10px 10px rgba(50, 50, 50, 0.15);
+  }
+
+  a {
+    text-decoration: none;
+    color: #555555;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #f47e47;
+  }
+
+  p {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+
+  ul {
+    list-style: none;
+    display: inline;
+    padding-inline-start: 0;
+  }
+  li {
+    font-size: 1em;
+  }
+
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  input {
+    border: 1px solid #AAA;
+    border-radius: 3px;
+    background: #F0F0F0;
+  }
+
+
+
+  .titulo-sections {
+    font-weight: bold;
+    font-size: 1.5em !important;
+  }
+
+  .titulo-menus {
+    color: #f47e47 !important;
+    font-weight: bold !important;
+
+  }
+
+  .titulo-cartoes {
+    color: #f47e47 !important;
+    font-weight: bold !important;
+  }
+
+
+  .btn-horus {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #FFF;
+    font-weight: 700;
+    background: #f37133;
+    margin-bottom: 20px;
+    border-color: #f37133 !important;
+  }
+
+  .btn-horus:hover {
+    color: #FFF;
+    background: #555555;
+  }
+
+  .btn-historia {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #FFF;
+    font-weight: 800;
+    background: #f37133;
+    margin-bottom: 20px;
+    font-size: 1em;
+  }
+
+  .btn-historia:hover {
+    color: #FFF;
+    background: #555555;
+  }
+  .btn-send {
+    padding-bottom: 13px;
+    padding-top: 13px;
+    color: #FFF;
+    font-weight: 700;
+    background: #f37133;
+    align-self: center;
+  }
+
+    /* BOTÕES MAIS COMPACTOS E MAIS FINOS */
+    .btn-data {
+      font-size: 0.75em;
+      font-weight: 800;
+      color: #FFF;
+      background: #f37133;
+    }
+    .btn-data:hover {
+      color: #FFF;
+      background: #555555;
+    }
+
+    /* BOTÕES FOOTER */
+
+    .btn-footer {
+      border: none;
+      border-radius: 4px;
+      /* padding-left: 10px;
+      padding-right: 10px; */
+      color: #FFF;
+      font-weight: 700;
+      background: #f37133;
+      margin-top: 15px;
+      font-size: 0.75em;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .btn-footer:hover {
+      color: #FFF;
+      background: #555555;
+    }
+
+
+    .btn-img {
+      padding-bottom: 5px;
+      padding-top: 5px;
+      color: #FFF;
+      font-weight: 700;
+      background: #f37133;
+      border-color: #f37133 !important;
+    }
+
+    .btn-img:hover {
+      color: #FFF;
+      background: #555555;
+    }
+
+
+  /* FONT AWESOME */
+  .twitter {
+    color: #55acee;
+    right: 100%;
+  }
+  .heart {
+    color: #eb084e;
+    /* margin-right: 10px !important; */
+    left: 15%;
+  }
+  .face {
+    color: #3b5998;
+  }
+
+  .twitter:hover {
+    color: #000;
+  }
+  .heart:hover {
+    color: #000;
+  }
+  .face:hover {
+    color: #000;
+  }
+
+
+
+
+/* ----------------------------- HEADER ------------------------- */
+
+.cabecalho {
+  background: #FFF;
+}
+.logo {
+  margin-top: 20px;
+}
+
+.menus-header {
+  margin-right: 130px;
+}
+
+.lista-redes li {
+  display: inline-block;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.lista-redes li a {
+  color: #555555 !important;
+}
+
+.lista-redes li a:hover {
+  color: #f47e47 !important;
+  text-decoration: none;
+}
+
+.lista-redes li button {
+  background: #f37133;
+  color: #FFF;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.lista-redes ul:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+/* ----------------------------- FOOTER ------------------------- */
+
+.footer {
+  background: #F0F0F0;
+  margin-top: 100px;
+  padding-top: 60px;
+}
+
+
+.li-bold {
+  font-weight: bold;
+}
+
+.input-email {
+  margin-top: 10px;
+float: right;
+}
+.input-nome {
+  margin-top: 10px;
+  float: left;
+  }
+  
+
+input::-webkit-input-placeholder {
+  padding-left: 10px;
+}
+.copyright {
+  border-top: 1px solid #CCC;
+}
+
+/* ----------------------------- HOME ------------------------- */
+.conheca-mais {
+  background: #f0f0f0;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+}
+.conheca-btn {
+  width: 100%;
+}
+.h1-conheca {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 60px;
+  
+}
+
+.h1-conheca::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #f37133;
+  margin: 0 auto;
+
+}
+
+
+.conheca-mais-text {
+  margin-bottom: 20px;
+  margin-right: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* AQUI COMEÇA A PARTE DE TREINAMENTOS DO SITE */
+
+.treinamentos {
+  background: #FFF;
+  margin-top: 80px;
+  /* padding: 30px; */
+}
+
+.treinamentos h1 {
+  font-weight: bold;
+}
+
+
+
+/* AQUI COMEÇA A PARTE DOS PARCEIROS */
+
+
+.parceiros {
+  margin-top: 50px;
+}
+
+.furukawa {
+  height: 100px;
+}
+
+
+.intelbras {
+  height: 100px;
+}
+
+.siemens {
+  height: 100px;
+}
+
+.samsung {
+  height: 100px;
+}
+
+.avigilon {
+  height: 100px;
+}
+
+.brother {
+  height: 100px;
+}
+
+/* ----------------------------- QUEM SOMOS ------------------------- */
+.section-video {
+  margin-bottom: 120px;
+}
+
+/* COMEÇO DA AREA SOBRE DO SITE */
+.sobre {
+  margin-top: 80px;
+}
+.sobre-texto {
+  color: #f37133;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+/* COMEÇO DA ÁREA DOS CARTÕES DO SITE */
+
+.cards {
+  margin-bottom: 30px;
+  margin-top: 115px;
+}
+.card-missao {
+  border: 1px solid #CCC;
+  box-shadow: 1px 1px #AAA;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-visao {
+  border: 1px solid #CCC;
+  box-shadow: 1px 1px #AAA;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-valores {
+  border: 1px solid #CCC;
+  box-shadow: 1px 1px #AAA;
+  border-radius: 3px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* COMEÇO DA SECTION TIMELINE DO SITE */
+
+.time-line-text {
+  background: #F0F0F0;
+  margin-bottom: 0;
+  margin-top: 90px;
+  text-align: justify;
+}
+.time-line-text p {
+  margin-bottom: 55px;
+}
+.time-line-text h1 {
+  margin-top: 75px;
+}
+.time-line img {
+  width: 100%;
+  background-size: cover;
+}
+
+/* COMEÇO DA ÁREA CASES DO SITE */
+
+.cases h1 {
+  color: #555555;
+  justify-content: center;
+  
+}
+
+.banner-text {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #FFF;
+  text-align: center;
+}
+.sub-texto {
+  font-weight: 300;
+  font-size: 1.25em;
+  color: #FFF;
+  text-align: center;
+}
+
+.cases-banner {
+  background: url('../assets/img/quemSomosImg/4\ -\ Quem\ Somos.png') no-repeat center;
+  background-size: cover;
+  width: auto;
+  height: 200px;
+  justify-content: center;
+  padding-top: 60px;
+}
+/* ----------------------------- NOTICIAS ------------------------- */
+
+.noticias-eventos {
+  height: 400px;
+  border: 1px solid black;
+  margin-top: 150px;
+}
+.evento-img {
+  margin-top: 30px;
+}
+
+.side-menu-title {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #f47e47;
+}
+
+
+/*------------------------------------ AQUI COMEÇA A SECTION DE EVENTOS REALIZADOS ------------------------------------- */
+
+.redes-eventos li {
+  display: inline-block;
+}
+
+
+/*---------------------------------------------------------- BANNER ---------------------------------------------------------------- */
+
+.banner-premiacao {
+  margin-top: 50px;
+}
+
+/* --------------------------------------AQUI COMEÇA A SECTION DOS LANÇAMENTOS--------------------------------------- */
+
+.lancamentos-row {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 55px;
+  margin-bottom: 35px;
+  padding-left: 0;
+}
+
+.lancamentos-title {
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+.lancamentos-description {
+  margin-top: 15px;
+}
+
+.lancamentos {
+  margin-top: 30px;
+}
+
+
+
+/* ----------------------------- ATAS ------------------------- */
+
+.titulos-sup {
+  margin-top: 200px;
+}
+
+.filtro-avançado-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.atas-cards {
+  margin-top: 20px important!;
+}
+
+.atas-h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.local-title {
+  font-weight: bold;
+  color: #f47e47;
+  font-size: 1.5em;
+}
+
+
+.fabricante-title {
+  font-weight: bold;
+  color: #f47e47;
+  font-size: 1.5em;
+}
+
+.solucao-title {
+  font-weight: bold;
+  color: #f47e47;
+  font-size: 1.5em;
+}
+
+.item-lista {
+  font-weight: bold;
+  font-size: 1.175em;
+
+}
+
+.item-lista a {
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+.switches {
+  margin-right: 20px;
+}
+
+
+
+/* AQUI COMEÇA A ÁREA DOS CARTÕES DA PÁGINA */
+
+
+.cards-descricao {
+  font-weight: bold;
+  font-size: 1.125em;
+}
+
+.card-content {
+  font-size: 0.875em;
+  line-height: 28px;
+}
+
+
+.cards {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.card-ata-1 {
+  border: 1px solid #CCC;
+  box-shadow: 1px 1px #AAA;
+  border-radius: 3px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.card-ata-1:hover {
+  border-color: #f47e47;
+}
+
+
+
+
+/* ----------------------------- ATAS-INSIDE ------------------------- */
+
+.inside-card {
+  border: 1px solid #DDD;
+  border-radius:2px;
+  margin-top: 60px;
+}
+.inside-card-img {
+  margin-top: 100px;
+}
+.inside-list {
+  margin-top: 110px;
+}
+.inside-description {
+  font-size: 0.9em;
+  font-weight: bold;
+  line-height: 28px;
+}
+.li-inferior {
+  margin-top: 10px;
+}
+.quantidade-label {
+  font-size: 0.8em;
+}
+.quantidade {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.preco {
+  font-weight: bold;
+}
+.max-unidades {
+  display: inline;
+}
+
+.btn-inside {
+  background: #f37133;
+  margin-left: 15px;
+  margin-top: 10px;
+  /* float: right; */
+}
+
+.btn-inside:hover {
+  background: #555555;
+}
+.inside-icon {
+  color: #FFF;
+}
+
+/* ----------------------------- TREINAMENTOS ------------------------- */
+.description-bold {
+  font-weight: 900;
+  font-size: 0.9em;
+  display: block;
+  clear: both;
+}
+.treinamentos-dados {
+  display: inline-block;
+}
+
+/* PARTE INFERIOR DA PARTE DE TREINAMENTOS ABERTOS */
+.treinamento-inferior {
+  margin-top: 20px;
+}
+
+
+/* SESSÃO ASIDE DO CALENDÁRIO */
+.calendario {
+  margin-bottom: 40px;
+  justify-content: right;
+}
+
+.treinamentos-btn {
+  margin-top: 50px;
+}
+
+.treinamentos-horizontal-scroll {
+  background: #f0f0f0;
+}
+
+
+/* PARTE INFERIOR DO SITE, OUTROS TREINAMENTOS */
+.outros-treinamentos-container {
+  overflow: scroll;
+}
+.outros-treinamentos-title {
+  margin-top: 20px;
+}
+.btn-data {
+  font-size: 0.75em;
+  font-weight: 800;
+  color: #FFF;
+  background: #f37133;
+  margin-left: 10px;
+}
+.btn-data:hover {
+  color: #FFF;
+  background: #555555;
+}
+.outros-treinamentos {
+  padding-top: 20px;
+}
+.treinamentos-scroll {
+  margin-top: 20px;
+}
+.treinamentos-inferior-link:hover {
+  background: rgb(99, 93, 131);
+}
+
+.imagem-clicavel:hover {
+  background-size: cover;
+  box-shadow: 5px 5px 10px rgba(50, 50, 50, 0.30);
+}
+
+/* ----------------------------- CONTATO ------------------------- */
+
+.banner-text {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #FFF;
+  text-align: center;
+}
+
+/* CARTÕES FILIAIS */
+.cards-container {
+  margin-top: 120px;
+}
+/* .cards {
+  border: 1px solid #EEE;
+  border-radius: 3px;
+} */
+.cards-info-div {
+  height: 100px;
+}
+.cards-info {
+  font-size: 0.875em;
+  padding: 0;
+}
+
+.sede-info {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #f47e47;
+}
+
+.city-maps {
+  margin-top: 30px;
+}
+
+
+/* CARTÕES MAPS */
+
+/* .card-maps {
+  margin-bottom: 70px;
+}
+ */
+
+
+/* AQUI COMEÇA A PARTE DOS FORMULÁRIOS DO SITE */
+
+.nome-form {
+  margin-bottom: 20px;
+}
+
+.email-form {
+  margin-bottom: 20px;
+}
+
+/* AQUI COMEÇA O CSS DA PARTE "CONHEÇA MAIS" DO SITE */
+
+.conheca-mais {
+  background: #BBB;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+}
+
+.h1-conheca {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.conheca-mais-text {
+  margin-bottom: 20px;
+  margin-right: 0;
+  width: 100%;
+  /* text-align: center; */
+}
+
+.btn-conheca {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: #FFF;
+  background: #f37133;
+  margin-bottom: 20px;
+  float: none !important;
+}
+.formularios-bottom {
+  margin-top:60px;
+}
+
+/* ----------------------------- TRABALHE CONOSCO ------------------------- */
+
+.titulo {
+  margin-top: 80px;
+  font-weight: bold;
+  margin-bottom: 50px; 
+  text-align: center;
+  font-size: 1.75em;
+  color: #f37133;
+}
+.nossa-empresa-p {
+  text-align: center;
+
+}
+
+.banner-top {
+  background-size: cover;
+  width: auto;
+}
+
+.img-banner {
+  margin-bottom: 90px;
+  margin-top: 90px;
+  /* height: 100px; */
+  width: 100%;
+}
+
+.nossa-empresa {
+  text-align: center;
+}
+.img-batida-de-maos{
+  margin-bottom: 50px; 
+}
+.vaga-p{
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 45px;
+}
+.vaga-title {
+  color: #f37133;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+
+.vaga {
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.875em;
+  font-weight: 700;
+}
+
+.vaga:hover {
+  background: #BBB;
+}
+
+.vaga-ficha {
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-size: 0.875em;
+  font-weight: 700;
+  text-align: left;
+}
+
+.vaga-ficha p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 20px;
+}
+
+
+.vaga-ficha:hover {
+  background: #BBB;
+}
+
+
+
+/* AQUI COMEÇA OS ESTILOS FORMULÁRIOS DO FINAL DA PÁGINA */
+.nome-form {
+  /* margin-top: 20px; */
+}
+.fone-form {
+  margin-top: 20px;
+}
+.carta-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.files-send {
+  border: 1px solid #DDD;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.files-send-p {
+  text-align: center;
+  font-size: 0.875em;
+  display: inline-block;
+}
+.send-btn {
+  background: #000 !important;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: #FFF;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.send-btn:hover {
+  background-color: #f37133;
+}
+
+.send-curriculo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 80px;
+}
+
+
+
+/* AQUI COMEÇA O CSS DA PARTE "CONHEÇA MAIS" DO SITE */
+
+.conheca-mais {
+  background: #BBB;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
+}
+
+.h1-conheca {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.conheca-mais-text {
+  margin-bottom: 20px;
+  margin-right: 0;
+  width: 100%;
+  /* text-align: center; */
+}
+
+.btn-conheca {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: #FFF;
+  background: #f37133;
+  margin-bottom: 20px;
+  float: none !important;
+}
+
+
+/* ----------------------------- CASES DE SUCESSO ------------------------- */
+
+.cases-banner {
+  margin-top: 150px;
+  
+}
+
+.linha-titulos {
+  margin-bottom: 20px;
+  margin-top: 125px;
+}
+/* .tipos-empresas {
+  margin-top: 20px;
+} */
+
+.descricao-sup {
+  text-align: center;
+}
+.numeros-estatisticas {
+  margin-bottom: 50px;
+}
+.numeros-estatisticas-img {
+  margin-top: 10px;
+}
+.depoimento-div {
+  align-items: center;
+  
+}
+
+.depoimento {
+  margin-top: 40px;
+  text-align: center;
+}
+.autoria {
+  text-align: center;
+  margin-top: 25px;
+}
+
+
+
+/* ----------------------------- CASES DE SUCESSO 2 ------------------------- */
+
+.banner-top {
+  overflow: hidden;
+  display: inline;
+}
+
+.h1-top {
+  background-color: #eb084e;
+}
+
+
+
+
+/* ----------------------------- MEDIA QUERIES ------------------------- */
+
+@media only screen and (max-width : 480px) {
+    p {
+    font-size: 1.125em;   
+}
+html {
+  margin-top: 105px;
+}
+.menu-header {
+    margin-right: 0;
+  }
+  .lista-redes{
+    margin-bottom: 0;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+  }
+  .titulo {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 50px; 
+    text-align: center;
+    font-size: 1.35em;
+    color: #f47e47;
+  }
+
+  .tipos-empresas {
+    margin-top: 20px;
+  }
+  
+  .email-form {
+    margin-top: 15px;
+  }
+
+.menus-header {
+  margin-right: 0 !important;
+  padding-right: 0 !important;  
+}
+
+.email-form {
+  margin-top: 15px;
+}
+
+.linha-titulos {
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+.cards-container {
+  margin-top: 2 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.menu-inferior {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width : 768px) {
+    .email-form {
+      margin-top: 15px;
+    }
+    html {
+      margin-top: 165px;
+    }
+
+    .conheca-btn {
+      width: 50%;
+    }
+  
+  }
+  
+  @media only screen and (min-width : 768px) {
+  p {
+      font-size: 1.125em;
+  }
+  
+  .menus-header {
+    margin-right: 130px;
+  }
+
+
+  
+}
+  

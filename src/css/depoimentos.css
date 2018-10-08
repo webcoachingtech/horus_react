@@ -1,0 +1,28 @@
+.depoimento-background {
+  background: url('../assets/img/Depoimento/1\ -\ Depoimentos.png') no-repeat;
+  max-width: 100%;
+  height: 100%;
+}
+
+.circulo-depoimento {
+  border-radius:100%;
+  border:1px solid red;
+  width:100px;
+  height:100px;
+  background-color:#FFF;
+}
+
+.depoimento-content {
+  text-align: center;
+  margin-top: 40px;
+
+}
+.depoimento-text {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+cite {
+  text-align: center;
+  font-weight: bold;
+}
